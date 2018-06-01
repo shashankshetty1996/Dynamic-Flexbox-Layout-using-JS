@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shashank S Shetty</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper" class="box-wrapper">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <form id="form">
+    <p id="title">FlexBox Alignment automatic tool</p>
+    <div>
+      <label for="align">Vertical Alignment : </label>
+      <select name="align" id="align">
+        <option value="" disabled>Select one</option>
+        <option value="baseline">baseline</option>
+        <option value="flex-start">flex-start</option>
+        <option value="center" selected>center</option>
+        <option value="flex-end">flex-end</option>
+      </select>
+    </div>
+    <div>
+      <label for="align">Horizontal Alignment : </label>
+      <select name="justify" id="justify">
+        <option value="" disabled>Select one</option>
+        <option value="baseline">baseline</option>
+        <option value="flex-start">flex-start</option>
+        <option value="center" selected>center</option>
+        <option value="flex-end">flex-end</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Change </button>
+  </form>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

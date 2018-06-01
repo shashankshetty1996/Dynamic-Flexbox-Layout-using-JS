@@ -1,0 +1,81 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box-wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  background: linear-gradient(-45deg, red, yellow);
+}
+
+.box span {
+  position: absolute;
+  font-size: 1.6rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  position: fixed;
+  font-size: 2rem;
+  display: inline;
+  /* height: 20vh; */
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 2;
+  background: linear-gradient(-45deg, red, yellow);
+  text-align: center;
+}
+
+form div {
+  display: inline-block;
+}
+
+#title {
+  width: 100vw;
+  padding: 0px;
+  margin: 10px;
+}
+
+select {
+  padding: 10px 5px;
+  width: 20vw;
+}
+
+.btn {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  border: 5px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.btn-primary {
+  background-color: #0040ff;
+  color: white;
+  box-shadow: 1px 1px 1px #0080ff;
+}
